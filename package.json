@@ -1,8 +1,12 @@
 {
   "name": "katavii-confluence-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "confluence.js is a powerful Node.JS/Browser module that allows you to interact with the Confluence API very easily",
   "author": "swift",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katavii/katavii-confluence-api.git"
+  },
   "license": "MIT",
   "main": "out/index.js",
   "types": "out/index.d.ts",
