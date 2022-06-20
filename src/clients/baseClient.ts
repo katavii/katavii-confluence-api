@@ -11,7 +11,7 @@ const ATLASSIAN_TOKEN_CHECK_NOCHECK_VALUE = 'no-check';
 export class BaseClient implements Client {
   #instance: AxiosInstance | undefined;
 
-  protected urlSuffix = '/wiki/rest/';
+  protected urlSuffix = '/rest/';
 
   constructor(protected readonly config: Config) {}
 
